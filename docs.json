@@ -1,0 +1,555 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Vectary Docs",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@vectary.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://www.vectary.com"
+  },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Changelog",
+      "icon": "clock-rotate-left",
+      "url": "changelog"
+    },
+    {
+      "name": "Tutorials",
+      "icon": "graduation-cap",
+      "url": "tutorials"
+    },
+    {
+      "name": "FAQ",
+      "icon": "question",
+      "url": "faq"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Welcome",
+      "pages": ["README"]
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
+        "documentation/getting-started/README",
+        "documentation/getting-started/system-requirements",
+        "documentation/getting-started/user-interface",
+        "documentation/getting-started/rendering",
+        "documentation/getting-started/dashboard",
+        "documentation/getting-started/account-settings",
+        "documentation/getting-started/roles",
+        "documentation/getting-started/scene-orientation",
+        "documentation/getting-started/units"
+      ]
+    },
+    {
+      "group": "Importing",
+      "pages": [
+        "documentation/importing/README",
+        "documentation/importing/import-formats",
+        "documentation/importing/figma-frames-import",
+        "documentation/importing/cad-files",
+        "documentation/importing/vectary-processor",
+        "documentation/importing/import-tips"
+      ]
+    },
+    {
+      "group": "Design Process",
+      "pages": [
+        "documentation/design-process/README",
+        {
+          "group": "Design Mode",
+          "pages": [
+            "documentation/design-process/design-mode/README",
+            "documentation/design-process/design-mode/selections-tools",
+            "documentation/design-process/design-mode/primitives",
+            "documentation/design-process/design-mode/3d-text",
+            "documentation/design-process/design-mode/light-sources",
+            {
+              "group": "Modifiers",
+              "pages": [
+                "documentation/design-process/design-mode/modifiers/README",
+                "documentation/design-process/design-mode/modifiers/array-linear",
+                "documentation/design-process/design-mode/modifiers/array-radial",
+                "documentation/design-process/design-mode/modifiers/array-grid",
+                "documentation/design-process/design-mode/modifiers/array-object",
+                "documentation/design-process/design-mode/modifiers/subdivide",
+                "documentation/design-process/design-mode/modifiers/bevel",
+                "documentation/design-process/design-mode/modifiers/randomize",
+                "documentation/design-process/design-mode/modifiers/symmetry",
+                "documentation/design-process/design-mode/modifiers/boolean"
+              ]
+            },
+            {
+              "group": "Deformers",
+              "pages": [
+                "documentation/design-process/design-mode/deformers/README",
+                "documentation/design-process/design-mode/deformers/bend",
+                "documentation/design-process/design-mode/deformers/twist",
+                "documentation/design-process/design-mode/deformers/taper",
+                "documentation/design-process/design-mode/deformers/skew",
+                "documentation/design-process/design-mode/deformers/stretch",
+                "documentation/design-process/design-mode/deformers/spherify",
+                "documentation/design-process/design-mode/deformers/noise",
+                "documentation/design-process/design-mode/deformers/simplify"
+              ]
+            },
+            {
+              "group": "Setup",
+              "pages": [
+                "documentation/design-process/design-mode/setup/README",
+                "documentation/design-process/design-mode/setup/group",
+                "documentation/design-process/design-mode/setup/empty",
+                "documentation/design-process/design-mode/setup/camera",
+                "documentation/design-process/design-mode/setup/backdrop",
+                "documentation/design-process/design-mode/setup/smooth-normals",
+                "documentation/design-process/design-mode/setup/clipping-plane"
+              ]
+            },
+            "documentation/design-process/design-mode/interactive-elements"
+          ]
+        },
+        {
+          "group": "Materials and Textures",
+          "pages": [
+            "documentation/design-process/materials-and-textures/README",
+            {
+              "group": "Basic Materials",
+              "pages": [
+                "documentation/design-process/materials-and-textures/basic-materials/README",
+                "documentation/design-process/materials-and-textures/basic-materials/color",
+                "documentation/design-process/materials-and-textures/basic-materials/roughness",
+                "documentation/design-process/materials-and-textures/basic-materials/metalness",
+                "documentation/design-process/materials-and-textures/basic-materials/opacity",
+                "documentation/design-process/materials-and-textures/basic-materials/emission",
+                "documentation/design-process/materials-and-textures/basic-materials/normal-map"
+              ]
+            },
+            {
+              "group": "Advanced Materials",
+              "pages": [
+                "documentation/design-process/materials-and-textures/advanced-materials/README",
+                "documentation/design-process/materials-and-textures/advanced-materials/subsurface",
+                "documentation/design-process/materials-and-textures/advanced-materials/refraction",
+                "documentation/design-process/materials-and-textures/advanced-materials/clearcoat",
+                "documentation/design-process/materials-and-textures/advanced-materials/thinfilm",
+                "documentation/design-process/materials-and-textures/advanced-materials/reflectivity",
+                "documentation/design-process/materials-and-textures/advanced-materials/double-sided-material"
+              ]
+            },
+            {
+              "group": "Baked Textures",
+              "pages": [
+                "documentation/design-process/materials-and-textures/baked-textures/README",
+                "documentation/design-process/materials-and-textures/baked-textures/ambient-occlusion-texture",
+                "documentation/design-process/materials-and-textures/baked-textures/lightmap",
+                "documentation/design-process/materials-and-textures/baked-textures/texture-remapping"
+              ]
+            },
+            "documentation/design-process/materials-and-textures/importing-own-textures"
+          ]
+        },
+        "documentation/design-process/animated-materials",
+        "documentation/design-process/decals",
+        "documentation/design-process/camera",
+        "documentation/design-process/environment",
+        "documentation/design-process/background",
+        "documentation/design-process/ground-plane",
+        {
+          "group": "Effects",
+          "pages": [
+            "documentation/design-process/effects/README",
+            "documentation/design-process/effects/reflections",
+            "documentation/design-process/effects/ambient-occlusion",
+            "documentation/design-process/effects/soft-shadows",
+            "documentation/design-process/effects/fading",
+            "documentation/design-process/effects/smooth-edges",
+            "documentation/design-process/effects/adjustments",
+            "documentation/design-process/effects/color-balance",
+            "documentation/design-process/effects/vignette",
+            "documentation/design-process/effects/grain",
+            "documentation/design-process/effects/bloom"
+          ]
+        },
+        {
+          "group": "Control Bar",
+          "pages": [
+            "documentation/design-process/control-bar/README",
+            "documentation/design-process/control-bar/fit-view",
+            "documentation/design-process/control-bar/viewport-display-modes",
+            "documentation/design-process/control-bar/gizmo-and-origin",
+            "documentation/design-process/control-bar/snapping",
+            "documentation/design-process/control-bar/download-image"
+          ]
+        },
+        {
+          "group": "Libraries",
+          "pages": [
+            "documentation/design-process/libraries/README",
+            "documentation/design-process/libraries/asset-library",
+            "documentation/design-process/libraries/materials-library",
+            "documentation/design-process/libraries/environments-library"
+          ]
+        },
+        {
+          "group": "Edit Mode",
+          "pages": [
+            "documentation/design-process/edit-mode/README",
+            "documentation/design-process/edit-mode/selection-tools",
+            "documentation/design-process/edit-mode/new-object",
+            "documentation/design-process/edit-mode/draw",
+            "documentation/design-process/edit-mode/primitives",
+            "documentation/design-process/edit-mode/extrude",
+            "documentation/design-process/edit-mode/bevel",
+            "documentation/design-process/edit-mode/make-circle",
+            "documentation/design-process/edit-mode/bridge",
+            "documentation/design-process/edit-mode/slide",
+            "documentation/design-process/edit-mode/cut",
+            "documentation/design-process/edit-mode/collapse",
+            "documentation/design-process/edit-mode/cap-open-boundaries",
+            "documentation/design-process/edit-mode/merge-faces",
+            "documentation/design-process/edit-mode/mesh-tools",
+            "documentation/design-process/edit-mode/normals"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "3D Configurator",
+      "pages": [
+        "documentation/3d-configurator/README",
+        "documentation/3d-configurator/variants",
+        {
+          "group": "Interactions",
+          "pages": [
+            "documentation/3d-configurator/interactions/README",
+            "documentation/3d-configurator/interactions/triggers",
+            "documentation/3d-configurator/interactions/conditions",
+            {
+              "group": "Actions",
+              "pages": [
+                "documentation/3d-configurator/interactions/actions/README",
+                "documentation/3d-configurator/interactions/actions/ar-action",
+                "documentation/3d-configurator/interactions/actions/animated-texture",
+                "documentation/3d-configurator/interactions/actions/animation",
+                "documentation/3d-configurator/interactions/actions/cameras",
+                "documentation/3d-configurator/interactions/actions/download-image",
+                "documentation/3d-configurator/interactions/actions/highlight",
+                "documentation/3d-configurator/interactions/actions/interactions",
+                "documentation/3d-configurator/interactions/actions/materials",
+                "documentation/3d-configurator/interactions/actions/link",
+                "documentation/3d-configurator/interactions/actions/look-at",
+                "documentation/3d-configurator/interactions/actions/sounds",
+                "documentation/3d-configurator/interactions/actions/transformation",
+                "documentation/3d-configurator/interactions/actions/upload-image",
+                "documentation/3d-configurator/interactions/actions/variants",
+                "documentation/3d-configurator/interactions/actions/visibility",
+                "documentation/3d-configurator/interactions/actions/webxr-action",
+                "documentation/3d-configurator/interactions/actions/send-event",
+                "documentation/3d-configurator/interactions/actions/set-variable"
+              ]
+            },
+            "documentation/3d-configurator/interactions/events-for-api"
+          ]
+        },
+        "documentation/3d-configurator/animations",
+        {
+          "group": "Floating UI",
+          "pages": [
+            "documentation/3d-configurator/floating-ui/README",
+            "documentation/3d-configurator/floating-ui/floating-ui-settings",
+            "documentation/3d-configurator/floating-ui/container",
+            "documentation/3d-configurator/floating-ui/materials-ui",
+            "documentation/3d-configurator/floating-ui/variants-ui",
+            "documentation/3d-configurator/floating-ui/text",
+            "documentation/3d-configurator/floating-ui/image",
+            "documentation/3d-configurator/floating-ui/button",
+            "documentation/3d-configurator/floating-ui/slider",
+            "documentation/3d-configurator/floating-ui/input",
+            "documentation/3d-configurator/floating-ui/embed",
+            "documentation/3d-configurator/floating-ui/color",
+            "documentation/3d-configurator/floating-ui/tips"
+          ]
+        },
+        "documentation/3d-configurator/hotspots",
+        {
+          "group": "Variables & Expressions",
+          "pages": [
+            "documentation/3d-configurator/variables-and-expressions/README",
+            "documentation/3d-configurator/variables-and-expressions/syntax",
+            "documentation/3d-configurator/variables-and-expressions/functions",
+            "documentation/3d-configurator/variables-and-expressions/list-of-inputs",
+            "documentation/3d-configurator/variables-and-expressions/data-import-.csv"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Project Settings",
+      "pages": [
+        "documentation/project-settings/README",
+        "documentation/project-settings/version-history",
+        "documentation/project-settings/augmented-reality-webar",
+        "documentation/project-settings/webxr-beta",
+        "documentation/project-settings/loading-screen",
+        "documentation/project-settings/mouse-controls",
+        "documentation/project-settings/interaction-prompt",
+        "documentation/project-settings/menu-settings"
+      ]
+    },
+    {
+      "group": "Sharing, Exporting, Embedding",
+      "pages": [
+        "documentation/sharing-exporting-embedding/README",
+        "documentation/sharing-exporting-embedding/sharing",
+        "documentation/sharing-exporting-embedding/performance-analyzer",
+        {
+          "group": "Optimizing a Shared Project",
+          "pages": [
+            "documentation/sharing-exporting-embedding/optimizing-a-shared-project/README",
+            "documentation/sharing-exporting-embedding/optimizing-a-shared-project/geometry",
+            "documentation/sharing-exporting-embedding/optimizing-a-shared-project/textures",
+            "documentation/sharing-exporting-embedding/optimizing-a-shared-project/materials",
+            "documentation/sharing-exporting-embedding/optimizing-a-shared-project/effects",
+            "documentation/sharing-exporting-embedding/optimizing-a-shared-project/light-and-shadows",
+            "documentation/sharing-exporting-embedding/optimizing-a-shared-project/hdri",
+            "documentation/sharing-exporting-embedding/optimizing-a-shared-project/ground-plane",
+            "documentation/sharing-exporting-embedding/optimizing-a-shared-project/tips"
+          ]
+        },
+        "documentation/sharing-exporting-embedding/project-cloning",
+        "documentation/sharing-exporting-embedding/embedding-to-other-software",
+        "documentation/sharing-exporting-embedding/export-options"
+      ]
+    },
+    {
+      "group": "Other",
+      "pages": [
+        "documentation/other/README",
+        "documentation/other/vectary-plugin-for-figma",
+        "documentation/other/2d-to-3d",
+        {
+          "group": "Image to 3D Model",
+          "pages": [
+            "documentation/other/image-to-3d-model/README",
+            "documentation/other/image-to-3d-model/upgrade-to-pro-ai"
+          ]
+        },
+        "documentation/other/3d-to-image",
+        "documentation/other/selections",
+        "documentation/other/comments",
+        "documentation/other/scene-panel",
+        "documentation/other/shortcuts",
+        "documentation/other/offline-viewer"
+      ]
+    },
+    {
+      "group": "Model API",
+      "pages": [
+        "api/model-api/README",
+        "api/model-api/quick-start",
+        {
+          "group": "API Reference",
+          "pages": [
+            "api/model-api/api-reference/README",
+            "api/model-api/api-reference/init",
+            "api/model-api/api-reference/isready",
+            "api/model-api/api-reference/projectinfo",
+            "api/model-api/api-reference/dispatchevent",
+            "api/model-api/api-reference/addeventlistener",
+            "api/model-api/api-reference/removeeventlistener",
+            "api/model-api/api-reference/setconfigurationstate",
+            "api/model-api/api-reference/getconfigurationstate",
+            "api/model-api/api-reference/getobjects",
+            "api/model-api/api-reference/removeobjects",
+            "api/model-api/api-reference/togglevisibility",
+            "api/model-api/api-reference/gethoveredobjects",
+            "api/model-api/api-reference/duplicateobjects",
+            "api/model-api/api-reference/moveobjects",
+            "api/model-api/api-reference/getposition",
+            "api/model-api/api-reference/setposition",
+            "api/model-api/api-reference/getrotation",
+            "api/model-api/api-reference/setrotation",
+            "api/model-api/api-reference/getscale",
+            "api/model-api/api-reference/setscale",
+            "api/model-api/api-reference/getprimitives",
+            "api/model-api/api-reference/setprimitives",
+            "api/model-api/api-reference/gettext3d",
+            "api/model-api/api-reference/settext3d",
+            "api/model-api/api-reference/getallmaterials",
+            "api/model-api/api-reference/getmaterials",
+            "api/model-api/api-reference/getactivematerial",
+            "api/model-api/api-reference/setactivematerial",
+            "api/model-api/api-reference/addoreditmaterial",
+            "api/model-api/api-reference/removematerial",
+            "api/model-api/api-reference/gettexturedata",
+            "api/model-api/api-reference/settexturedata",
+            "api/model-api/api-reference/addtexture",
+            "api/model-api/api-reference/maptextures",
+            "api/model-api/api-reference/raycastall",
+            "api/model-api/api-reference/raycastobject",
+            "api/model-api/api-reference/getrayfromcoordinate",
+            "api/model-api/api-reference/getanimations",
+            "api/model-api/api-reference/playanimation",
+            "api/model-api/api-reference/stopanimation",
+            "api/model-api/api-reference/setanimationplayhead",
+            "api/model-api/api-reference/rotateenvironmentmap",
+            "api/model-api/api-reference/getviewstate",
+            "api/model-api/api-reference/setviewstate",
+            "api/model-api/api-reference/fittoview",
+            "api/model-api/api-reference/takescreenshot",
+            "api/model-api/api-reference/importfiles",
+            "api/model-api/api-reference/importproject",
+            "api/model-api/api-reference/exportfile"
+          ]
+        },
+        "api/model-api/type-definitions",
+        "api/model-api/events-and-listeners",
+        "api/model-api/floating-ui",
+        {
+          "group": "Ecommerce",
+          "pages": [
+            "api/model-api/ecommerce/README",
+            "api/model-api/ecommerce/webflow",
+            "api/model-api/ecommerce/shopify",
+            "api/model-api/ecommerce/custom-code"
+          ]
+        },
+        "api/model-api/api-demos"
+      ]
+    },
+    {
+      "group": "Model API [new]",
+      "pages": [
+        "api/model-api-new/README",
+        "api/model-api-new/quick-start-new",
+        "api/model-api-new/core-concepts-new",
+        {
+          "group": "API Reference [new]",
+          "pages": [
+            "api/model-api-new/api-reference-new/README",
+            "api/model-api-new/api-reference-new/init-new",
+            "api/model-api-new/api-reference-new/isready-new",
+            "api/model-api-new/api-reference-new/projectinfo-new",
+            "api/model-api-new/api-reference-new/dispatchevent-new",
+            "api/model-api-new/api-reference-new/addeventlistener-new",
+            "api/model-api-new/api-reference-new/removeeventlistener-new",
+            "api/model-api-new/api-reference-new/getconfigurationstate-new",
+            "api/model-api-new/api-reference-new/setconfigurationstate-new",
+            "api/model-api-new/api-reference-new/getobjects-new",
+            "api/model-api-new/api-reference-new/removeobjects-new",
+            "api/model-api-new/api-reference-new/gethoveredobjects-new",
+            "api/model-api-new/api-reference-new/duplicateobjects-new",
+            "api/model-api-new/api-reference-new/moveobjects-new",
+            "api/model-api-new/api-reference-new/togglevisibility-new",
+            "api/model-api-new/api-reference-new/getposition-new",
+            "api/model-api-new/api-reference-new/setposition-new",
+            "api/model-api-new/api-reference-new/getrotation-new",
+            "api/model-api-new/api-reference-new/setrotation-new",
+            "api/model-api-new/api-reference-new/getscale-new",
+            "api/model-api-new/api-reference-new/setscale-new",
+            "api/model-api-new/api-reference-new/getallmaterials-new",
+            "api/model-api-new/api-reference-new/getmaterials-new",
+            "api/model-api-new/api-reference-new/getactivematerial-new",
+            "api/model-api-new/api-reference-new/setactivematerial-new",
+            "api/model-api-new/api-reference-new/addoreditmaterial-new",
+            "api/model-api-new/api-reference-new/removematerial-new",
+            "api/model-api-new/api-reference-new/gettexturedata-new",
+            "api/model-api-new/api-reference-new/settexturedata-new",
+            "api/model-api-new/api-reference-new/addtexture-new",
+            "api/model-api-new/api-reference-new/maptextures-new",
+            "api/model-api-new/api-reference-new/getprimitives-new",
+            "api/model-api-new/api-reference-new/setprimitives-new",
+            "api/model-api-new/api-reference-new/gettext3d-new",
+            "api/model-api-new/api-reference-new/settext3d-new",
+            "api/model-api-new/api-reference-new/getviewstate-new",
+            "api/model-api-new/api-reference-new/setviewstate-new",
+            "api/model-api-new/api-reference-new/fittoview-new",
+            "api/model-api-new/api-reference-new/getanimations-new",
+            "api/model-api-new/api-reference-new/playanimation-new",
+            "api/model-api-new/api-reference-new/stopanimation-new",
+            "api/model-api-new/api-reference-new/setanimationplayhead-new",
+            "api/model-api-new/api-reference-new/raycastall-new",
+            "api/model-api-new/api-reference-new/raycastobject-new",
+            "api/model-api-new/api-reference-new/getrayfromcoordinate-new",
+            "api/model-api-new/api-reference-new/rotateenvironmentmap-new",
+            "api/model-api-new/api-reference-new/importfiles-new",
+            "api/model-api-new/api-reference-new/importproject-new",
+            "api/model-api-new/api-reference-new/exportfile-new",
+            "api/model-api-new/api-reference-new/takescreenshot-new"
+          ]
+        },
+        "api/model-api-new/ecommerce-new"
+      ]
+    },
+    {
+      "group": "Tutorials",
+      "pages": [
+        "tutorials/README",
+        "tutorials/design-variants-for-creating-interactive-3d-presentations"
+      ]
+    },
+    {
+      "group": "Showcases",
+      "pages": [
+        "showcases/README",
+        "showcases/material-picker-template"
+      ]
+    },
+    {
+      "group": "FAQ",
+      "pages": ["faq"]
+    },
+    {
+      "group": "Changelog",
+      "pages": [
+        "changelog/README",
+        "changelog/february-2026",
+        "changelog/january-2026",
+        "changelog/november-2025",
+        "changelog/october-2025",
+        "changelog/september-2025",
+        "changelog/august-2025",
+        "changelog/july-2025",
+        "changelog/june-2025",
+        "changelog/may-2025",
+        "changelog/april-2025",
+        "changelog/march-2025"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": ["help", "feedback"]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/vaboris",
+    "github": "https://github.com/vectary",
+    "linkedin": "https://www.linkedin.com/company/vectary"
+  }
+}
